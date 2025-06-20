@@ -1,0 +1,26 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel starter/index.html",
+    "build": "parcel build starter/index.html --dist-dir ./dist"
+  },
+  "author": "Paulo Eneias",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.15.2",
+    "parcel": "^2.15.2"
+  },
+  "dependencies": {
+    "core-js": "^3.42.0",
+    "fraction.js": "^2.4.0",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.14.1"
+  },
+  "staticFiles": {
+    "staticPath": "src/img",
+    "staticOutDir": "img"
+  }
+}
